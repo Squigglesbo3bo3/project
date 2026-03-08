@@ -12,6 +12,7 @@ train_data = tf.keras.preprocessing.image_dataset_from_directory(
     image_size=(224,224),
     batch_size=32
 )
+# roqaya is here
 
 val_data = tf.keras.preprocessing.image_dataset_from_directory(
     train_path,
