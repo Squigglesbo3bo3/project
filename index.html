@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PneumoAI — Pneumonia Detection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+<nav>
+  <div class="logo">
+    <div class="logo-mark">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+        <path d="M12 3C9 3 7 5 6.5 7.5C4.5 8 3 9.8 3 12C3 14.5 5 16.5 7.5 16.5H16.5C19 16.5 21 14.5 21 12C21 9.8 19.5 8 17.5 7.5C17 5 15 3 12 3Z" stroke="white" stroke-width="1.5" fill="none"/>
+        <path d="M9 16.5C9 16.5 8.5 20 12 21.5C15.5 20 15 16.5 15 16.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    PneumoAI
+  </div>
+  <div class="nav-links">
+    <button class="nl active" onclick="goPage('home', this)">Home</button>
+    <button class="nl" onclick="goPage('home', this); setTimeout(() => goTo('about'), 60)">About</button>
+    <button class="nl" onclick="goPage('home', this); setTimeout(() => goTo('chat'), 60)">Chat</button>
+    <button class="nav-pill" onclick="goPage('analysis', this)">X-Ray Analysis →</button>
+  </div>
+</nav>
+
+
+<div id="home" class="page active">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow">AI-powered screening tool</div>
+      <h1>Early detection<br>saves <i>lives.</i></h1>
+      <p class="hero-sub">Upload a chest X-ray and get an instant AI analysis — confidence score, full medical report, and clinic recommendations near you.</p>
+      <div class="hero-btns">
+        <button class="btn-p" onclick="goPage('analysis', null)">Analyze your X-Ray →</button>
+        <button class="btn-s" onclick="goTo('about')">About pneumonia</button>
+      </div>
+    </div>
+
+    <div class="xray-card">
+      <div class="xc-label">Chest X-Ray · AI Scan</div>
+      <div class="xc-screen">
+        <div class="scan-line"></div>
+        <svg viewBox="0 0 200 200" width="200" height="200">
+          <rect width="200" height="200" fill="#04101e"/>
+          <ellipse cx="100" cy="108" rx="72" ry="78" fill="none" stroke="#132640" stroke-width="1.5"/>
+          <!-- Ribs left -->
+          <path d="M62 52 Q40 62 42 78" stroke="#1e3a5f" stroke-width="1.2" fill="none"/>
+          <path d="M63 67 Q38 77 41 93" stroke="#1e3a5f" stroke-width="1.2" fill="none"/>
+          <path d="M65 82 Q38 92 43 108" stroke="#1e3a5f" stroke-width="1.2" fill="none"/>
+          <path d="M67 97 Q40 107 45 122" stroke="#1e3a5f" stroke-width="1.2" fill="none"/>
+          
+          <path d="M138 52 Q160 62 158 78" stroke="#1e3a5f" stroke-width="1.2" fill="none"/>
+          <path d="M137 67 Q162 77 159 93" stroke="#1e3a5f" stroke-width="1.2" fill="none"/>
+          <path d="M135 82 Q162 92 157 108" stroke="#1e3a5f" stroke-width="1.2" fill="none"/>
+          <path d="M133 97 Q160 107 155 122" stroke="#1e3a5f" stroke-width="1.2" fill="none"/>
+          
+          <ellipse cx="76" cy="108" rx="27" ry="40" fill="#0a1e36" stroke="#1A5FA0" stroke-width=".9"/>
+          <ellipse cx="124" cy="108" rx="27" ry="40" fill="#0a1e36" stroke="#1A5FA0" stroke-width=".9"/>
+          
+          <ellipse cx="130" cy="120" rx="14" ry="10" fill="rgba(59,130,196,.3)" stroke="#3B82C4" stroke-width=".8"/>
+          <ellipse cx="128" cy="117" rx="7" ry="5" fill="rgba(59,130,196,.5)"/>
+          
+          <rect x="95" y="48" width="10" height="104" rx="4" fill="#132640" stroke="#1e3a5f" stroke-width=".8"/>
+          
+          <ellipse cx="95" cy="108" rx="16" ry="21" fill="#071525" stroke="#132640" stroke-width=".9"/>
+          
+          <circle cx="130" cy="120" r="17" fill="none" stroke="#3B82C4" stroke-width=".9" stroke-dasharray="3 2" opacity=".75"/>
+          <text x="149" y="111" fill="#3B82C4" font-size="7.5" font-family="monospace">AI</text>
+          <line x1="147" y1="114" x2="144" y2="118" stroke="#3B82C4" stroke-width=".8"/>
+        </svg>
+      </div>
+      <div class="xc-stats">
+        <div class="xcs">
+          <div class="xcs-l">Confidence</div>
+          <div class="xcs-v yellow">87%</div>
+        </div>
+        <div class="xcs">
+          <div class="xcs-l">Finding</div>
+          <div class="xcs-v small">Pneumonia<br><span class="xcs-region">Right Lower Lobe</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <span class="si-n">2.5M+</span>
+        <span class="si-l">Annual pneumonia deaths worldwide</span>
+      </div>
+      <div class="stat-item">
+        <span class="si-n">95%</span>
+        <span class="si-l">Detection accuracy with early AI screening</span>
+      </div>
+      <div class="stat-item">
+        <span class="si-n">&lt;30s</span>
+        <span class="si-l">Analysis time per X-ray</span>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-text">
+        <div class="eyebrow-light">About the disease</div>
+        <h2 class="sec-title-light">What is Pneumonia?</h2>
+        <p>Pneumonia is a lung infection that inflames the air sacs in one or both lungs, causing them to fill with fluid or pus. It ranges from mild to life-threatening and is a leading cause of death, especially in children under 5 and adults over 65.</p>
+        <p>Chest X-rays remain the gold standard for diagnosis. Our AI model is trained to detect the characteristic infiltrates and consolidations that appear on infected lungs.</p>
+        <div class="symptoms-block">
+          <div class="eyebrow-light" style="margin-bottom:.6rem;">Common symptoms</div>
+          <div class="sym-grid">
+            <div class="sym-item"><div class="sym-dot"></div>High fever &amp; chills</div>
+            <div class="sym-item"><div class="sym-dot"></div>Productive cough</div>
+            <div class="sym-item"><div class="sym-dot"></div>Shortness of breath</div>
+            <div class="sym-item"><div class="sym-dot"></div>Sharp chest pain</div>
+            <div class="sym-item"><div class="sym-dot"></div>Fatigue &amp; weakness</div>
+            <div class="sym-item"><div class="sym-dot"></div>Loss of appetite</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-card">
+        <h4 class="tl-card-title">Typical progression</h4>
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot">1</div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="tl-h">Infection onset</div>
+            <div class="tl-p">Bacteria, viruses, or fungi enter lung tissue. Mild symptoms start within 24–48 hours.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot">2</div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="tl-h">Consolidation phase</div>
+            <div class="tl-p">Air sacs fill with fluid and immune cells. Fever peaks, oxygen levels may drop significantly.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot">3</div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="tl-h">Treatment &amp; recovery</div>
+            <div class="tl-p">With antibiotics or antivirals, most patients recover within 1–3 weeks. Follow-up X-ray recommended.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="how-section">
+    <div class="sec-eyebrow">How it works</div>
+    <h2 class="sec-title">Everything you need in one place</h2>
+    <div class="cards-grid">
+      <div class="feat-card">
+        <div class="feat-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="6" y="6" width="12" height="12" rx="2" stroke="#1A5FA0" stroke-width="1.4"/><path d="M9 3H15M3 9V15M21 9V15M9 21H15" stroke="#1A5FA0" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </div>
+        <h3>AI X-Ray Analysis</h3>
+        <p>Upload a chest X-ray and our model detects pneumonia markers with high accuracy in seconds.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4M5 3h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2z" stroke="#1A5FA0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Detailed Report</h3>
+        <p>Confidence score, affected region, severity classification — all in one structured report.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" stroke="#1A5FA0" stroke-width="1.4" fill="none"/></svg>
+        </div>
+        <h3>Find Nearby Clinics</h3>
+        <p>If results are concerning, we help you find the nearest hospitals and clinics with one tap.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="#1A5FA0" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>AI Health Chat</h3>
+        <p>Ask about symptoms, treatments, or prevention anytime. Available 24/7 with instant replies.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#1A5FA0" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="#1A5FA0" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Fast Results</h3>
+        <p>Analysis completes in under 30 seconds. No waiting lists, no appointments needed.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#1A5FA0" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Private &amp; Secure</h3>
+        <p>Your images are processed securely and never stored or shared without your consent.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chatbot -->
+  <section class="chat-section" id="chat">
+    <div class="chat-inner">
+      <div class="sec-eyebrow">Ask anything</div>
+      <h2 class="sec-title">Chat with our health assistant</h2>
+      <div class="chat-box">
+        <div class="chat-head">
+          <div class="chat-av">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="10" fill="white" opacity=".9"/>
+              <path d="M8 12h8M12 8v8" stroke="#1A5FA0" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="chat-name">PneumoAI Assistant</div>
+            <div class="chat-status"><div class="status-dot"></div>Online · Medical AI</div>
+          </div>
+        </div>
+        <div class="quick-btns">
+          <button class="qb" onclick="sendQ('What are the symptoms of pneumonia?')">Symptoms</button>
+          <button class="qb" onclick="sendQ('How is pneumonia treated?')">Treatment</button>
+          <button class="qb" onclick="sendQ('How can I prevent pneumonia?')">Prevention</button>
+          <button class="qb" onclick="sendQ('When should I go to the emergency room?')">Emergency signs</button>
+          <button class="qb" onclick="sendQ('How does the X-ray analysis work?')">How it works</button>
+        </div>
+        <div class="chat-msgs" id="chatMsgs">
+          <div class="msg bot">Hello! I'm here to help you understand pneumonia — its symptoms, treatment, and prevention. Feel free to ask me anything, or use the quick buttons above.</div>
+        </div>
+        <div class="chat-foot">
+          <input class="chat-inp" id="chatInp" placeholder="Type your question here..." onkeydown="if(event.key==='Enter') sendChat()"/>
+          <button class="chat-btn" onclick="sendChat()">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
+              <path d="M22 2L11 13M22 2L15 22L11 13M11 13L2 9L22 2" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <strong>PneumoAI</strong> — AI-powered pneumonia screening.<br>
+    <span>For educational and screening purposes only. Always consult a licensed physician for medical decisions.</span>
+  </footer>
+</div>
+
+<!--analysis-->
+<div id="analysis" class="page">
+  <div class="analysis-wrap">
+    <div class="page-hdr">
+      <div class="sec-eyebrow">X-Ray Analysis</div>
+      <h2>Upload a Chest X-Ray</h2>
+      <p>Our AI will analyze your scan and provide a full report with recommendations.</p>
+    </div>
+
+    <!-- Upload zone -->
+    <div class="upload-zone" id="upZone" onclick="document.getElementById('fi').click()">
+      <input type="file" id="fi" accept="image/*" style="display:none" onchange="handleFile(this)"/>
+      <div class="up-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+          <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M17 8l-5-5-5 5M12 3v12" stroke="#1A5FA0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h3 id="upTitle">Drop your X-ray here, or click to browse</h3>
+      <p id="upSub">Supports JPEG, PNG, DICOM formats</p>
+      <div class="ftypes">
+        <span class="ft">JPEG</span>
+        <span class="ft">PNG</span>
+        <span class="ft">DICOM</span>
+        <span class="ft">TIFF</span>
+      </div>
+    </div>
+
+    <button class="analyze-btn" id="analyzeBtn" disabled onclick="runAnalysis()">Analyze X-Ray</button>
+
+    <!-- Loading -->
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p>Analyzing your X-ray with AI...</p>
+      <p class="loading-sub">This usually takes 10–30 seconds</p>
+    </div>
+
+    <!-- Results -->
+    <div class="results" id="results">
+      <div class="disclaimer-box">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;margin-top:1px;">
+          <circle cx="12" cy="12" r="10" stroke="#1A5FA0" stroke-width="1.5"/>
+          <path d="M12 8v4M12 16h.01" stroke="#1A5FA0" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span>This is a screening tool, not a diagnosis. Please consult a licensed physician to confirm and interpret these results.</span>
+      </div>
+
+      <div class="res-summary">
+        <div class="res-icon" id="resIcon"></div>
+        <div>
+          <div class="res-title" id="resTitle"></div>
+          <div class="res-sub" id="resSub"></div>
+        </div>
+      </div>
+
+      <div class="score-block">
+        <div class="block-label">Confidence Score</div>
+        <div class="score-bar-bg">
+          <div class="score-bar-fill" id="scoreBar" style="width:0%;"></div>
+        </div>
+        <div class="score-big" id="scoreVal">—</div>
+      </div>
+
+      <div class="report-block">
+        <h4>Medical Report</h4>
+        <div class="rep-text" id="repText">—</div>
+      </div>
+
+      <div class="report-block">
+        <h4>Recommendations</h4>
+        <div class="rec-list" id="recList"></div>
+      </div>
+
+      <!-- Clinics — shown only when score >= 60 -->
+      <div class="clinics-block" id="clinicsBlock" style="display:none;">
+        <h4>Find Medical Care Nearby</h4>
+        <p class="clinics-sub">Based on your results, we recommend seeing a doctor as soon as possible. Use the buttons below to find a hospital or pulmonology clinic near you.</p>
+        <button class="maps-btn" onclick="openMaps('hospital')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" stroke="white" stroke-width="1.5" fill="none"/>
+          </svg>
+          Find Nearest Hospital
+        </button>
+        <button class="maps-btn maps-btn-secondary" onclick="openMaps('pulmonologist')">
+          Find Pulmonology Clinic
+        </button>
+      </div>
+
+      <button class="reset-btn" onclick="resetAnalysis()">Analyze Another X-Ray</button>
+    </div>
+  </div>
+
+  <footer>
+    <strong>PneumoAI</strong> — AI-powered pneumonia screening.<br>
+    <span>For educational purposes only.</span>
+  </footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
