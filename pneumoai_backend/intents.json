@@ -1,0 +1,1326 @@
+{
+  "intents": [
+    {
+      "tag": "best_doctor_delta_university",
+      "patterns": [
+        "مين افضل دكتوره في الجامعه",
+        "مين احسن دكتوره في الجامعه",
+        "افضل دكتوره في جامعه الدلتا مين",
+        "مين افضل دكتور في جامعه الدلتا",
+        "best doctor in delta university",
+        "who is the best doctor in the university",
+        "who is the best professor in delta university",
+        "meen afdal doktora fel game3a",
+        "meen ahsan doktora fe gamet el delta",
+        "best female doctor in delta university",
+        "who is the top doctor at delta university",
+        "afdal doktora fi game3et el delta",
+        "best doctor at the university",
+        "who is best doctor in my university",
+        "tell me the best doctor in delta uni",
+        "who is number one doctor in delta university",
+        "who is the greatest doctor in the university",
+        "which doctor is best at delta university",
+        "top rated professor at delta university",
+        "recommend a good doctor at delta university"
+      ],
+      "responses": [
+        "Dr. Samia is widely considered the best doctor at Delta University; many students say she is like a mother to them.",
+        "Many students at Delta University highly recommend Dr. Samia for her excellent teaching and caring, motherly approach.",
+        "Dr. Samia is the top-rated professor at Delta University. She is known for treating her students with great care."
+      ]
+    },
+    {
+      "tag": "greeting_general",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "hello how are you",
+        "Hi bot",
+        "Hello assistant",
+        "Can we start?",
+        "I need help",
+        "I want to ask something",
+        "Are you there?",
+        "Can you help me?",
+        "Let us begin",
+        "I have a question",
+        "Can we talk?",
+        "I need guidance",
+        "Start please",
+        "Hello, can we chat?",
+        "Greetings to you"
+      ],
+      "responses": [
+        "Hello! I can provide general education about pneumonia, symptoms, and triage guidance. How can I help?",
+        "Hi there! I'm here to help you understand pneumonia symptoms, warning signs, and when to seek care.",
+        "Welcome. You can ask me any pneumonia-related question, from prevention to emergency warning signs."
+      ]
+    },
+    {
+      "tag": "greeting_casual",
+      "patterns": [
+        "Yo",
+        "Sup",
+        "What is up?",
+        "Hey buddy",
+        "Hey doc bot",
+        "Hiya",
+        "Morning",
+        "Evening",
+        "How is it going?",
+        "Quick question",
+        "Need quick help",
+        "Got a concern",
+        "Can I ask real quick?",
+        "Hey, got a minute?",
+        "Yo assistant",
+        "Help me out",
+        "Hey quick one",
+        "Hi quick question",
+        "Can you guide me?",
+        "Let us do this"
+      ],
+      "responses": [
+        "Hey! Ask your pneumonia question and I'll keep the answers clear and practical.",
+        "Sure, go ahead! I can explain warning signs and help you understand when to seek medical care.",
+        "Absolutely. Share your concerns, and I will give you safe, educational guidance."
+      ]
+    },
+    {
+      "tag": "greeting_formal",
+      "patterns": [
+        "Good day",
+        "Greetings",
+        "Pleasure to meet you",
+        "I would like assistance",
+        "I require medical education guidance",
+        "Could you assist me?",
+        "May I ask a question?",
+        "I seek information about pneumonia",
+        "Please assist me",
+        "Kindly help me",
+        "Hello, I need structured guidance",
+        "Can you provide an overview?",
+        "I would like to begin consultation questions",
+        "Could we begin?",
+        "Good to connect",
+        "I need professional guidance",
+        "Please provide support",
+        "I have several questions",
+        "May we proceed?",
+        "Good evening, I need advice"
+      ],
+      "responses": [
+        "Greetings. I provide structured, general education on pneumonia and triage boundaries. How may I assist you?",
+        "Certainly. Please share your question, and I will respond with clear, safety-focused educational guidance.",
+        "Thank you for reaching out. I can assist with explaining symptoms, emergency red flags, and prevention."
+      ]
+    },
+    {
+      "tag": "greeting_checkin",
+      "patterns": [
+        "Can we start with basics?",
+        "Start with an overview",
+        "What can you help with?",
+        "How should I use this assistant?",
+        "What topics do you cover?",
+        "Give me a quick menu",
+        "What can I ask you?",
+        "How do we begin?",
+        "Show me options",
+        "What is the first step?",
+        "Where should I start?",
+        "Can you guide the conversation?",
+        "I am not sure what to ask first",
+        "Help me structure my questions",
+        "Give me starting points",
+        "What are common questions?",
+        "Can you list key topics?",
+        "What do you do exactly?",
+        "Tell me your capabilities",
+        "How can you support me?"
+      ],
+      "responses": [
+        "You can ask me about: definition, symptoms, emergency signs, risk factors, tests, treatment principles, recovery, and prevention.",
+        "A good starting point is asking: What symptoms are concerning? When should I call a doctor vs ER? What care is safe at home?",
+        "I provide general education and triage guidance. Tell me your first concern, and I will guide you step by step."
+      ]
+    },
+    {
+      "tag": "pneumonia_disclaimer_general",
+      "patterns": [
+        "Can you explain your medical limits?",
+        "Are you a real doctor?",
+        "Can you diagnose me?",
+        "Is this actual medical advice?",
+        "What should I know about this assistant?",
+        "Please clarify your limitations",
+        "Can you prescribe medicine?",
+        "How accurate is your diagnosis?",
+        "Do you replace a doctor?",
+        "What is the medical disclaimer?",
+        "Can I trust you to tell me what I have?",
+        "Should I see a doctor instead?",
+        "Explain the safety limits of this chat",
+        "Are you allowed to diagnose?",
+        "What can't you do medically?",
+        "Give me a plain-English guide to your limits",
+        "Are you a licensed physician?",
+        "What are key points on your medical limits?",
+        "Can you walk me through your limitations?",
+        "Should I rely solely on your advice?"
+      ],
+      "responses": [
+        "I provide general education about pneumonia, not personalized medical diagnosis or treatment.",
+        "I cannot confirm what illness you have, prescribe medicines, or replace a clinical exam.",
+        "Use this chat to understand symptoms and triage boundaries. For personal medical decisions, always contact a licensed clinician."
+      ]
+    },
+    {
+      "tag": "pneumonia_disclaimer_emergency",
+      "patterns": [
+        "What are the emergency signs?",
+        "When is it a medical emergency?",
+        "What are urgent warning signs?",
+        "Should I go to the ER now?",
+        "Danger signs to watch out for?",
+        "Is this an emergency?",
+        "When should I call 911?",
+        "What symptoms mean I need an ambulance?",
+        "Tell me the critical warning signs",
+        "How do I know if it's life-threatening?",
+        "What are the red flags for urgent care?",
+        "When is immediate help needed?",
+        "Are blue lips an emergency?",
+        "I can't breathe, is that an emergency?",
+        "List the emergency symptoms of pneumonia",
+        "When should I seek immediate help?",
+        "What are the extreme danger signs?",
+        "At what point is it an emergency?",
+        "Emergency guidelines for pneumonia",
+        "When to rush to the hospital?"
+      ],
+      "responses": [
+        "Call emergency services immediately for severe trouble breathing, blue lips, severe chest pain, confusion, or fainting.",
+        "Do not delay urgent care while waiting for online advice. If you feel unsafe or are struggling to breathe, go to the ER.",
+        "Rapid worsening, inability to speak full sentences, or sudden confusion in older adults are high-risk warning signs requiring immediate emergency care."
+      ]
+    },
+    {
+      "tag": "pneumonia_definition_plain_language",
+      "patterns": [
+        "What is pneumonia?",
+        "Define pneumonia",
+        "Explain pneumonia simply",
+        "What does pneumonia mean?",
+        "How would you describe pneumonia?",
+        "What exactly happens when you have pneumonia?",
+        "Pneumonia meaning?",
+        "Can you explain pneumonia in simple terms?",
+        "What is the basic definition of pneumonia?",
+        "Tell me about pneumonia",
+        "What disease is pneumonia?",
+        "Is pneumonia a lung infection?",
+        "What causes pneumonia?",
+        "Explain pneumonia to a child",
+        "Give me a simple definition of pneumonia",
+        "What is going on in the lungs with pneumonia?",
+        "Can you break down what pneumonia is?",
+        "What kind of illness is pneumonia?",
+        "I want to know what pneumonia is",
+        "Briefly define pneumonia"
+      ],
+      "responses": [
+        "Pneumonia is an infection or inflammation of the lungs that affects the tiny air sacs (alveoli), making them fill with fluid or pus.",
+        "It's a serious lung infection that makes breathing difficult and often causes a cough with phlegm, fever, and chills.",
+        "In simple terms, pneumonia inflames your lung tissue, dropping oxygen transfer and causing heavy, difficult breathing."
+      ]
+    },
+    {
+      "tag": "pneumonia_how_lungs_affected",
+      "patterns": [
+        "How does pneumonia affect the lungs?",
+        "What happens to the lungs during pneumonia?",
+        "How are the air sacs affected?",
+        "What does pneumonia do to your breathing?",
+        "Why is it hard to breathe with pneumonia?",
+        "Explain lung damage from pneumonia",
+        "How does the infection change the lungs?",
+        "What is going on inside the lungs?",
+        "How do the alveoli react to pneumonia?",
+        "What physical changes happen in the lungs?",
+        "Does pneumonia fill the lungs with fluid?",
+        "Why does pneumonia cause low oxygen?",
+        "How does inflammation affect lung function?",
+        "What part of the lung gets infected?",
+        "Explain the mechanism of pneumonia in lungs",
+        "What exactly happens in my chest?",
+        "How does pneumonia restrict oxygen?",
+        "Describe the lung's reaction to pneumonia",
+        "Why do lungs hurt with pneumonia?",
+        "How does pneumonia impact breathing?"
+      ],
+      "responses": [
+        "Pneumonia causes the tiny air sacs in your lungs (alveoli) to become inflamed and fill with fluid or pus, blocking oxygen from reaching your blood.",
+        "The infection inflames the lung tissue, reducing the lungs' ability to transfer oxygen to your bloodstream, which causes shortness of breath.",
+        "When you have pneumonia, the swelling and fluid inside the lungs make the lungs stiff and heavy, making every breath feel restricted and difficult."
+      ]
+    },
+    {
+      "tag": "pneumonia_bacterial_vs_viral_overview",
+      "patterns": [
+        "Bacterial vs viral pneumonia?",
+        "What is the difference between viral and bacterial pneumonia?",
+        "How do I know if it's bacterial or viral?",
+        "Which is worse, bacterial or viral pneumonia?",
+        "Are bacterial and viral pneumonia treated differently?",
+        "Explain the types of pneumonia",
+        "Is my pneumonia caused by a virus or bacteria?",
+        "Compare bacterial and viral lung infections",
+        "Can viruses cause pneumonia?",
+        "Does bacterial pneumonia need antibiotics?",
+        "What are the causes of pneumonia?",
+        "How do doctors tell bacterial and viral pneumonia apart?",
+        "Is viral pneumonia contagious?",
+        "Difference in symptoms between viral and bacterial pneumonia",
+        "Which type of pneumonia is more common?",
+        "Do antibiotics work on viral pneumonia?",
+        "Bacterial pneumonia overview",
+        "Viral pneumonia basics",
+        "How does the cause affect treatment?",
+        "What germs cause pneumonia?"
+      ],
+      "responses": [
+        "Bacterial pneumonia is often more severe and requires antibiotics. Viral pneumonia is usually milder, doesn't respond to antibiotics, and is treated with supportive care.",
+        "Symptoms overlap greatly, so a doctor must use tests, history, and exams to determine if the cause is viral or bacterial.",
+        "Both viruses and bacteria can inflame the lungs. Do not self-diagnose; a clinical evaluation ensures you get the correct treatment, like antibiotics if it is bacterial."
+      ]
+    },
+    {
+      "tag": "pneumonia_symptoms_common",
+      "patterns": [
+        "What are the symptoms of pneumonia?",
+        "Common pneumonia signs?",
+        "How do I know if I have pneumonia?",
+        "What does pneumonia feel like?",
+        "Signs of a lung infection?",
+        "Is a bad cough a sign of pneumonia?",
+        "Do you get a fever with pneumonia?",
+        "What are the early warning signs of pneumonia?",
+        "List the common symptoms of pneumonia",
+        "How does pneumonia start?",
+        "What kind of cough is pneumonia?",
+        "Does pneumonia cause chest pain?",
+        "Are chills a symptom of pneumonia?",
+        "What are the typical symptoms I should watch for?",
+        "How does pneumonia present itself?",
+        "Common signs of pneumonia in adults",
+        "Is shortness of breath a pneumonia symptom?",
+        "Can you have pneumonia without a fever?",
+        "What symptoms point to pneumonia?",
+        "Tell me the main symptoms of pneumonia"
+      ],
+      "responses": [
+        "Common symptoms include a persistent cough (often with phlegm), fever, chills, shortness of breath, and chest pain when breathing deeply.",
+        "You might experience deep fatigue, sweating, shaking chills, and a cough. Breathing may feel difficult or painful.",
+        "Symptoms vary, but typical signs are a deep, wet cough, fever, difficulty breathing, and profound tiredness. Not every cough means pneumonia."
+      ]
+    },
+    {
+      "tag": "pneumonia_vs_cold_flu",
+      "patterns": [
+        "Is it pneumonia or a cold?",
+        "Difference between flu and pneumonia?",
+        "How to tell pneumonia from the flu?",
+        "Is this just a bad cold or pneumonia?",
+        "Cold vs flu vs pneumonia?",
+        "Has my cold turned into pneumonia?",
+        "How is pneumonia different from a cold?",
+        "Signs it's more than just the flu",
+        "Flu symptoms vs pneumonia symptoms",
+        "How to distinguish between a cold, flu and pneumonia?",
+        "Is a severe cold actually pneumonia?",
+        "Can flu turn into pneumonia?",
+        "What makes pneumonia different from a regular respiratory infection?",
+        "Why does this feel worse than the flu?",
+        "Pneumonia or flu?",
+        "How to differentiate between flu and lung infection?",
+        "Is my cough a cold or pneumonia?",
+        "Are the symptoms of flu and pneumonia similar?",
+        "When does a cold become pneumonia?",
+        "How do doctors tell if it's flu or pneumonia?"
+      ],
+      "responses": [
+        "Colds and flu usually cause upper respiratory symptoms (runny nose, sore throat). Pneumonia goes deeper into the lungs, causing chest pain, severe shortness of breath, and a deep productive cough.",
+        "While the flu comes on suddenly with body aches and high fever, pneumonia often develops as a complication later on, presenting with a deep, wet cough and heavy breathing.",
+        "If your cold or flu symptoms start to improve but then suddenly get much worse, especially with a high fever and chest pain, it may have developed into pneumonia."
+      ]
+    },
+    {
+      "tag": "pneumonia_overlap_unclear",
+      "patterns": [
+        "Why are my symptoms so confusing?",
+        "Could my viral illness be pneumonia?",
+        "Unclear overlap between viral illness and pneumonia",
+        "How do I know if my virus became pneumonia?",
+        "Symptoms are mixed, what do I do?",
+        "Is it normal for pneumonia and viruses to look similar?",
+        "Can pneumonia hide as a viral infection?",
+        "What if I can't tell what I have?",
+        "Why is it hard to diagnose pneumonia from symptoms?",
+        "I have mixed symptoms of a cold and pneumonia",
+        "When viral symptoms and pneumonia overlap",
+        "Clarify the overlap between cold and pneumonia",
+        "How do doctors handle unclear symptoms?",
+        "What should I do if my symptoms are ambiguous?",
+        "Is it a virus or bacterial pneumonia?",
+        "My illness is very confusing right now",
+        "What to do when symptoms are unclear?",
+        "How to handle mixed respiratory symptoms?",
+        "When should I worry about ambiguous symptoms?",
+        "Can viral and bacterial symptoms look exactly the same?"
+      ],
+      "responses": [
+        "Because symptoms like cough and fever overlap heavily between viruses, flu, and pneumonia, it is often impossible to tell them apart without a medical exam.",
+        "If symptoms are persistent, confusing, or you seem to get better and then worse again, arrange for an in-person evaluation with a doctor.",
+        "Do not try to self-diagnose mixed symptoms. A clinician uses a physical exam (listening to the lungs) and possibly chest X-rays to clear up the confusion."
+      ]
+    },
+    {
+      "tag": "pneumonia_when_call_doctor",
+      "patterns": [
+        "When should I call the doctor for a cough?",
+        "At what point do I need to see a physician?",
+        "Should I call my GP for pneumonia?",
+        "When is it time to seek medical advice?",
+        "When to call a doctor for chest illness?",
+        "Do I need to see a doctor for this fever?",
+        "How long should I wait before calling a doctor?",
+        "When does a cough need medical attention?",
+        "Should I book an appointment?",
+        "When should I act on my respiratory symptoms?",
+        "Is it time to call the clinic?",
+        "When to seek non-emergency medical care?",
+        "What symptoms warrant a doctor's visit?",
+        "Should I consult a doctor for chest pain?",
+        "When is home care not enough?",
+        "When to stop waiting and call a doctor?",
+        "Guidance on when to see a physician",
+        "Do I need a doctor's appointment for this?",
+        "When should I be evaluated in person?",
+        "When is medical review necessary?"
+      ],
+      "responses": [
+        "Call a doctor if your cough lasts more than a few days, you have a persistent fever, or if you were feeling better but suddenly got worse.",
+        "You should seek medical advice if your symptoms are not improving with home care, or if you belong to a high-risk group (older adults, children, immunocompromised).",
+        "If you are concerned, uncertain, or experiencing steady chest discomfort, it is always best to schedule an evaluation with a clinician."
+      ]
+    },
+    {
+      "tag": "pneumonia_when_er",
+      "patterns": [
+        "When should I go to the ER?",
+        "Do I need the emergency room?",
+        "When to go to the emergency room for breathing symptoms?",
+        "Is this an ER situation?",
+        "When to bypass the doctor and go to the hospital?",
+        "What breathing signs mean go to the ER?",
+        "When is it a hospital emergency?",
+        "Should I go to urgent care or the ER?",
+        "When to call 911 for pneumonia?",
+        "What is the threshold for emergency care?",
+        "Are my symptoms severe enough for the ER?",
+        "When should I rush to the emergency room?",
+        "What are the ER warning signs?",
+        "When to seek immediate hospital care?",
+        "Do I need to be admitted to the hospital?",
+        "When is shortness of breath an ER visit?",
+        "When to act immediately for chest issues?",
+        "ER guidelines for respiratory distress",
+        "When to not wait for a doctor's appointment?",
+        "Is chest pain a reason for the ER?"
+      ],
+      "responses": [
+        "Go to the emergency room immediately if you have severe trouble breathing, blue/gray lips, confusion, fainting, or severe chest pain.",
+        "If you cannot speak in full sentences because you are gasping for air, or if symptoms worsen very rapidly, call 911 or go to the ER.",
+        "Do not wait for a standard appointment if breathing feels like a struggle or if you feel unsafe at home. Seek emergency evaluation."
+      ]
+    },
+    {
+      "tag": "pneumonia_risk_factors_general",
+      "patterns": [
+        "Who is at higher risk for pneumonia?",
+        "What are the risk factors for pneumonia?",
+        "Who is most likely to get pneumonia?",
+        "Am I at risk for pneumonia?",
+        "What makes someone prone to lung infections?",
+        "Who is vulnerable to pneumonia?",
+        "What are the main causes of risk?",
+        "Does age affect pneumonia risk?",
+        "Who gets severe pneumonia?",
+        "What conditions make pneumonia more likely?",
+        "Are some people more susceptible to pneumonia?",
+        "What increases the chances of pneumonia?",
+        "General risk factors for lung infection?",
+        "Who needs to be most careful about pneumonia?",
+        "What groups are at high risk?",
+        "Does lifestyle affect pneumonia risk?",
+        "Who is targeted by pneumonia?",
+        "Why do some people get pneumonia easier?",
+        "What health issues increase pneumonia risk?",
+        "Explain who is at high risk"
+      ],
+      "responses": [
+        "Higher risk groups include children under 2, adults over 65, people with weakened immune systems, and those with chronic health conditions like asthma, COPD, or heart disease.",
+        "Smoking, recent viral infections (like the flu or COVID-19), and neurological conditions that affect swallowing also significantly increase the risk of developing pneumonia.",
+        "Anyone can get pneumonia, but it is most dangerous for the very young, the elderly, and those with pre-existing lung or immune system issues."
+      ]
+    },
+    {
+      "tag": "pneumonia_tests_imaging_labs",
+      "patterns": [
+        "How is pneumonia diagnosed?",
+        "What tests are used for suspected pneumonia?",
+        "Will I need a chest X-ray?",
+        "What lab tests confirm pneumonia?",
+        "How do doctors test for lung infections?",
+        "What imaging is done for pneumonia?",
+        "Do I need blood tests for pneumonia?",
+        "How does a doctor know I have pneumonia?",
+        "What is the diagnostic process for pneumonia?",
+        "What tests will they run at the hospital?",
+        "Are there specific tests to find out if I have pneumonia?",
+        "What does a pneumonia workup look like?",
+        "How is the cause of pneumonia tested?",
+        "Will they test my phlegm?",
+        "What medical tests check the lungs?",
+        "Explain the labs for pneumonia",
+        "How do they measure oxygen in pneumonia?",
+        "What is a sputum test?",
+        "Can a blood test show pneumonia?",
+        "What diagnostics are used for chest infections?"
+      ],
+      "responses": [
+        "Clinicians diagnose pneumonia using a physical exam (listening for crackles in the lungs), chest X-rays to see inflammation, and pulse oximetry to check oxygen levels.",
+        "Depending on severity, doctors may order blood tests to check immune response, or a sputum (phlegm) test to identify the specific bacteria causing the illness.",
+        "A chest X-ray is the most common imaging tool to confirm pneumonia, while lab tests help determine if the cause is viral or bacterial."
+      ]
+    },
+    {
+      "tag": "pneumonia_treatment_principles",
+      "patterns": [
+        "Treatment?",
+        "How is pneumonia treated?",
+        "Do I need antibiotics?",
+        "Antibiotics?",
+        "Home care?",
+        "What is the cure for pneumonia?",
+        "How do you fix pneumonia?",
+        "What medicines are used for pneumonia?",
+        "Can pneumonia be treated at home?",
+        "Do I have to go to the hospital for pneumonia treatment?",
+        "What is the standard treatment for pneumonia?",
+        "How do doctors treat a lung infection?",
+        "Will antibiotics cure my pneumonia?",
+        "What are the treatment options for pneumonia?",
+        "How long does pneumonia treatment take?",
+        "Is there a specific medicine for pneumonia?",
+        "What can I take for pneumonia?",
+        "How to recover from pneumonia?",
+        "Medical treatments for lung infections",
+        "Do viral and bacterial pneumonia have the same treatment?"
+      ],
+      "responses": [
+        "Treatment depends on the cause: antibiotics are prescribed for bacterial pneumonia, while viral pneumonia is managed with rest, fluids, and fever-reducing medicines.",
+        "Do not self-prescribe antibiotics. A doctor must evaluate you to determine the right treatment plan based on your age, overall health, and the severity of the infection.",
+        "Severe cases may require hospital admission for IV fluids, targeted antibiotics, and supplemental oxygen therapy, while mild cases can often be managed at home under a doctor's guidance."
+      ]
+    },
+    {
+      "tag": "pneumonia_supportive_care_home",
+      "patterns": [
+        "How to treat pneumonia at home?",
+        "Supportive home care for mild symptoms?",
+        "What can I do at home to feel better?",
+        "Home remedies for pneumonia?",
+        "How to manage pneumonia symptoms at home?",
+        "What is the best home care for lung infections?",
+        "Can I recover at home?",
+        "What should I drink for pneumonia?",
+        "How to rest properly with pneumonia?",
+        "Self-care for mild pneumonia?",
+        "What steps can I take at home to heal?",
+        "How to relieve chest pain at home?",
+        "What are supportive measures for pneumonia?",
+        "Are there things I can do at home to speed recovery?",
+        "Home management of pneumonia",
+        "What fluids are best for pneumonia?",
+        "How to care for someone with pneumonia at home?",
+        "Mild pneumonia home care guide",
+        "What over the counter meds help?",
+        "How to stay comfortable with a chest infection?"
+      ],
+      "responses": [
+        "For mild cases, home care includes getting plenty of rest, drinking lots of fluids to loosen mucus, and using a humidifier to make breathing easier.",
+        "Over-the-counter medications can help manage fever and muscle aches, but always follow package instructions and consult your doctor before using cough suppressants.",
+        "Pace your activities, avoid smoke or lung irritants, and monitor your symptoms closely. If breathing becomes harder or fever spikes, seek medical attention immediately."
+      ]
+    },
+    {
+      "tag": "pneumonia_prevention_vaccines_general",
+      "patterns": [
+        "Vaccines?",
+        "Which vaccines help?",
+        "Pneumonia vaccine?",
+        "How to prevent pneumonia?",
+        "Prevention tips?",
+        "Is there a shot for pneumonia?",
+        "Who should get the pneumonia vaccine?",
+        "Can you prevent pneumonia?",
+        "How to avoid getting a lung infection?",
+        "What vaccines protect against pneumonia?",
+        "Does the flu shot help prevent pneumonia?",
+        "How often do you need a pneumonia vaccine?",
+        "Are there ways to prevent getting pneumonia again?",
+        "What are the best prevention methods for pneumonia?",
+        "Can good hygiene prevent pneumonia?",
+        "Tell me about the pneumococcal vaccine",
+        "Who is eligible for the pneumonia shot?",
+        "Is the pneumonia vaccine effective?",
+        "Steps to stop pneumonia infection",
+        "How to protect the elderly from pneumonia?"
+      ],
+      "responses": [
+        "Vaccines are the most effective way to prevent pneumonia. The pneumococcal vaccine, yearly flu shots, and COVID-19 vaccines greatly reduce your risk.",
+        "In addition to vaccines, you can prevent pneumonia by washing your hands frequently, quitting smoking, and avoiding close contact with people who have respiratory infections.",
+        "Ask your healthcare provider which vaccines are right for you, especially if you are over 65, have a chronic illness, or have a weakened immune system."
+      ]
+    },
+    {
+      "tag": "pneumonia_pediatric_when_to_seek_care",
+      "patterns": [
+        "My child is sick.",
+        "Child breathing fast.",
+        "Baby coughing.",
+        "When to worry?",
+        "Doctor or ER?",
+        "When should I take my baby to the hospital?",
+        "Is my toddler's cough serious?",
+        "Danger signs of pneumonia in babies",
+        "When is a child's breathing too fast?",
+        "Should I take my kid to the doctor for a cough?",
+        "How to know if a child has pneumonia?",
+        "What are the emergency signs for a baby with a cough?",
+        "My kid's chest is pulling in when they breathe",
+        "When to call the pediatrician?",
+        "Is grunting a bad sign in babies?",
+        "When to go to the ER for a child's cough",
+        "What are the red flags for children with respiratory infections?",
+        "How to tell if my baby is struggling to breathe?",
+        "When does a child's cold become a hospital visit?",
+        "Pediatric emergency breathing signs"
+      ],
+      "responses": [
+        "Seek emergency care immediately if your child is breathing very fast, grunting, has chest retractions (skin pulling in around the ribs), or has blue lips.",
+        "If your baby is unusually sleepy, hard to wake up, not drinking fluids, or looks significantly unwell, do not wait—go to the ER or urgent care.",
+        "Children's breathing problems can worsen quickly. If your instincts say something is wrong or they are struggling to breathe, trust that and seek in-person evaluation."
+      ]
+    },
+    {
+      "tag": "pneumonia_contagious_questions",
+      "patterns": [
+        "Is pneumonia contagious?",
+        "Can I catch pneumonia from someone?",
+        "How long are you contagious with pneumonia?",
+        "Can pneumonia spread to others?",
+        "Is bacterial pneumonia contagious?",
+        "Is viral pneumonia contagious?",
+        "How is pneumonia transmitted?",
+        "Should I isolate if I have pneumonia?",
+        "Can my kids catch my pneumonia?",
+        "How does pneumonia spread?",
+        "Is it safe to be around someone with pneumonia?",
+        "When is it safe to be around people again?",
+        "Is walking pneumonia contagious?",
+        "Can you get pneumonia from coughing?",
+        "Do I need to quarantine?",
+        "How long until I am no longer contagious?",
+        "Can you pass pneumonia to a baby?",
+        "Are lung infections communicable?",
+        "How easily does pneumonia spread?",
+        "Explain the contagious period of pneumonia"
+      ],
+      "responses": [
+        "Pneumonia itself is not contagious, but the germs (viruses or bacteria) that cause it can spread from person to person through coughing or sneezing.",
+        "If your pneumonia is caused by a virus (like flu or COVID-19) or certain bacteria (like Mycoplasma), you can pass those germs to others, who might then develop a cold, flu, or pneumonia.",
+        "You are generally considered less contagious after you've been on antibiotics for a few days (for bacterial) or once your fever breaks (for viral), but always ask your doctor for specific isolation guidance."
+      ]
+    },
+    {
+      "tag": "pneumonia_recovery_timeline_general",
+      "patterns": [
+        "How long does it take to recover from pneumonia?",
+        "When will I feel better?",
+        "What is the expected recovery timeline?",
+        "How long does pneumonia last?",
+        "Will I ever stop coughing?",
+        "Is it normal to be tired for weeks after pneumonia?",
+        "Timeline for healing from a lung infection?",
+        "How many days until pneumonia clears up?",
+        "When can I go back to normal?",
+        "How long does the fatigue last?",
+        "Recovery expectations for pneumonia",
+        "Why is it taking so long to heal?",
+        "How fast do antibiotics work for pneumonia?",
+        "How long will my lungs hurt?",
+        "What is the normal healing process?",
+        "When does the cough finally go away?",
+        "How long will I be sick with pneumonia?",
+        "Explain the stages of recovery",
+        "Is a month of coughing normal?",
+        "How long until my X-ray is clear?"
+      ],
+      "responses": [
+        "Recovery from pneumonia is gradual. While fever and severe symptoms may improve in a few days to a week with treatment, fatigue and a lingering cough can last for a month or more.",
+        "It is normal to feel tired and have a mild cough for several weeks after the main infection clears. Do not rush your recovery; allow your body time to rest.",
+        "If you are not seeing steady improvement after starting treatment, or if your symptoms return after initially getting better, you must follow up with your doctor."
+      ]
+    },
+    {
+      "tag": "pneumonia_safety_net_summary",
+      "patterns": [
+        "Can you summarize the safety net for pneumonia?",
+        "What are the key takeaways for pneumonia safety?",
+        "Quick safety net summary?",
+        "What is the most important thing to remember?",
+        "Give me the final safety rules",
+        "How to stay safe with pneumonia?",
+        "Summarize the danger signs and actions",
+        "What are the ultimate red flags?",
+        "Give me a quick reference for when to act",
+        "What is the bottom line for pneumonia care?",
+        "Summary of emergency rules?",
+        "What should I absolutely not ignore?",
+        "Key rules for managing a lung infection?",
+        "Safety net advice?",
+        "What is the most critical advice you have?",
+        "Summarize when to get help",
+        "What are the non-negotiable safety signs?",
+        "Give me the cheat sheet for pneumonia safety",
+        "How do I ensure I don't ignore something serious?",
+        "Quick safety guidelines?"
+      ],
+      "responses": [
+        "Severe breathlessness, chest pain, blue lips, or confusion mean emergency care is needed immediately.",
+        "Never self-diagnose or use leftover antibiotics. If symptoms worsen at any stage, or if recovery is slower than expected, seek a professional medical evaluation.",
+        "Remember: This assistant provides education only. When in doubt about your breathing or safety, always consult a licensed doctor or go to the ER."
+      ]
+    },
+    {
+      "tag": "pneumonia_older_adults_risk",
+      "patterns": [
+        "How does pneumonia affect the elderly?",
+        "Why is my grandmother suddenly confused?",
+        "Signs of pneumonia in older adults",
+        "Is confusion a symptom for seniors?",
+        "Atypical pneumonia signs in the elderly",
+        "Does age make pneumonia worse?",
+        "Pneumonia risks for people over 65",
+        "Elderly parent with a chest infection",
+        "Delirium and pneumonia connection",
+        "Can pneumonia cause dementia-like symptoms?",
+        "Why do older people get pneumonia so easily?",
+        "Is a fever always present in elderly pneumonia?",
+        "Warning signs of lung infections for seniors",
+        "When should an older adult go to the ER for a cough?",
+        "Why is pneumonia dangerous for the elderly?",
+        "How dangerous is pneumonia for a 70 year old?",
+        "My grandpa has a cough and is acting weird",
+        "Sudden confusion and weakness in an older adult",
+        "Geriatric pneumonia symptoms and signs",
+        "How to protect vulnerable seniors from pneumonia"
+      ],
+      "responses": [
+        "In older adults, pneumonia may not cause a high fever or severe cough. Instead, early signs often include sudden confusion (delirium), unusual weakness, falls, or a lower-than-normal body temperature.",
+        "Seniors are at high risk for severe complications. If an older adult suddenly becomes confused, lethargic, or stops eating, seek medical evaluation immediately, as this can be a sign of a serious infection like pneumonia.",
+        "Age weakens the immune system, making pneumonia more dangerous for the elderly. A doctor should promptly evaluate any sudden mental changes, worsening weakness, or breathing difficulties in older adults."
+      ]
+    },
+    {
+      "tag": "pneumonia_smoking_and_chronic_disease",
+      "patterns": [
+        "Does smoking increase pneumonia risk?",
+        "I have asthma, is pneumonia more dangerous?",
+        "COPD and pneumonia complications",
+        "How does vaping affect pneumonia?",
+        "Pneumonia risk with heart disease",
+        "Does diabetes make lung infections worse?",
+        "Smokers cough or pneumonia?",
+        "I smoke, how can I prevent pneumonia?",
+        "What if I get pneumonia and have COPD?",
+        "Can quitting smoking help my lungs heal?",
+        "Are asthmatics at higher risk for pneumonia?",
+        "Chronic bronchitis and pneumonia overlap",
+        "How do underlying conditions affect recovery?",
+        "Is pneumonia life-threatening with heart failure?",
+        "Can vape pens cause pneumonia?",
+        "Diabetes and weakened immune system for lungs",
+        "How to manage pneumonia if I have asthma",
+        "Does a history of smoking permanently increase risk?",
+        "Why are COPD patients vulnerable to pneumonia?",
+        "Lung disease and pneumonia risk factors"
+      ],
+      "responses": [
+        "Smoking, vaping, and chronic conditions like COPD or asthma damage your lungs' natural defenses, making it much easier for pneumonia-causing germs to take hold and cause severe illness.",
+        "People with chronic diseases (like diabetes, heart disease, or lung disease) have a higher risk of complications and hospitalizations from pneumonia. Close medical monitoring is essential.",
+        "If you have a preexisting lung condition and develop pneumonia symptoms, contact your doctor immediately. Quitting smoking is one of the most effective ways to lower your future risk."
+      ]
+    },
+    {
+      "tag": "pneumonia_aspiration_pneumonia",
+      "patterns": [
+        "What is aspiration pneumonia?",
+        "Can choking cause a lung infection?",
+        "Food went down the wrong pipe, now I have a fever",
+        "Inhaling liquid into lungs",
+        "Pneumonia after vomiting",
+        "Swallowing problems and pneumonia",
+        "What causes aspiration pneumonia?",
+        "Is aspiration pneumonia contagious?",
+        "Stroke patients and aspiration risk",
+        "Elderly choking on water and getting pneumonia",
+        "How to prevent aspiration pneumonia?",
+        "Symptoms of inhaling food into lungs",
+        "Can acid reflux cause pneumonia?",
+        "Aspiration pneumonia treatment",
+        "Is it dangerous to inhale a drink?",
+        "Coughing fits after eating, is it pneumonia?",
+        "Signs of aspiration pneumonia in adults",
+        "How quickly does aspiration pneumonia develop?",
+        "Dysphagia and lung infection risk",
+        "What happens if vomit gets in your lungs?"
+      ],
+      "responses": [
+        "Aspiration pneumonia happens when food, liquid, saliva, or vomit is inhaled into the lungs instead of being swallowed. This causes inflammation and can lead to a serious bacterial infection.",
+        "It is not contagious. It is most common in people with swallowing difficulties, stroke survivors, the elderly, or those who have experienced vomiting or reduced consciousness.",
+        "If you develop a fever, a wet cough, or chest pain after a severe choking episode or vomiting, seek medical care. Prevention includes eating upright and taking smaller bites."
+      ]
+    },
+    {
+      "tag": "pneumonia_pulse_oximetry_oxygen",
+      "patterns": [
+        "What should my oxygen level be?",
+        "Pulse oximeter readings for pneumonia",
+        "Is 92 oxygen level bad?",
+        "When do I need oxygen for pneumonia?",
+        "How to use a pulse oximeter at home",
+        "Low O2 stats with a cough",
+        "What oxygen level means go to the ER?",
+        "Does pneumonia lower your oxygen?",
+        "Why is my oxygen saturation dropping?",
+        "Normal SpO2 levels for adults",
+        "Is 88% oxygen dangerous?",
+        "Should I buy a pulse ox for pneumonia?",
+        "How to increase oxygen levels at home",
+        "What causes low blood oxygen?",
+        "When is supplemental oxygen required?",
+        "Hypoxia symptoms in pneumonia",
+        "Can I have normal oxygen and still have pneumonia?",
+        "Is taking deep breaths enough to raise oxygen?",
+        "What do pulse oximeter numbers mean?",
+        "Emergency oxygen levels"
+      ],
+      "responses": [
+        "Pneumonia can block oxygen from entering your blood. Normal pulse oximeter readings are generally 95% to 100%.",
+        "If your oxygen level consistently drops below 92%, or if you feel severe shortness of breath regardless of the number, you should seek immediate emergency medical care.",
+        "A pulse oximeter is a helpful home tool, but it doesn't replace a doctor's evaluation. You can have a normal oxygen reading but still require medical treatment for pneumonia."
+      ]
+    },
+    {
+      "tag": "pneumonia_myths_and_misconceptions",
+      "patterns": [
+        "Can going outside with wet hair cause pneumonia?",
+        "Does cold weather give you pneumonia?",
+        "Can I get pneumonia from the rain?",
+        "Myths vs facts about pneumonia",
+        "Is pneumonia just a bad cold?",
+        "If I don't have a fever, I don't have pneumonia right?",
+        "Can you catch pneumonia from an air conditioner?",
+        "Does drinking cold water cause lung infections?",
+        "Is it true that only old people get pneumonia?",
+        "Will antibiotics cure every cough?",
+        "Does sleeping with a fan on cause pneumonia?",
+        "Common misconceptions about pneumonia",
+        "Can I sweat out pneumonia?",
+        "If I feel better, should I stop my antibiotics?",
+        "Does chicken soup cure pneumonia?",
+        "Are natural remedies enough for pneumonia?",
+        "Can you get pneumonia from walking barefoot?",
+        "Is pneumonia always fatal?",
+        "Truth about how you catch pneumonia",
+        "Debunking pneumonia myths"
+      ],
+      "responses": [
+        "Myth check: You cannot catch pneumonia from being in cold weather, having wet hair, or being in the rain. Pneumonia is caused by infectious germs like viruses, bacteria, or fungi.",
+        "Another common myth is that only the elderly get pneumonia. While they are at higher risk, healthy young adults and children can also develop severe pneumonia.",
+        "It is a myth that you should stop antibiotics once you feel better. You must finish the entire prescription to prevent the bacteria from returning stronger. Also, antibiotics do not work on viral pneumonia."
+      ]
+    },
+    {
+      "tag": "pneumonia_post_viral_secondary",
+      "patterns": [
+        "I had the flu and now I'm worse",
+        "COVID turned into pneumonia",
+        "Secondary bacterial infection after a cold",
+        "Pneumonia after viral respiratory illness",
+        "I was getting better then got a high fever again",
+        "Post-viral pneumonia risk",
+        "How does the flu lead to pneumonia?",
+        "RSV turned into a lung infection",
+        "Relapsed after a cold, is it pneumonia?",
+        "Why do viruses cause bacterial pneumonia?",
+        "Warning signs of a secondary lung infection",
+        "Can a common cold settle in the lungs?",
+        "Getting sicker after initially improving",
+        "Flu complications in the lungs",
+        "How to prevent secondary pneumonia",
+        "Is my bronchitis now pneumonia?",
+        "Double sickness phenomenon",
+        "Why did my cough return with a fever?",
+        "Viral damage leading to bacterial growth",
+        "COVID-19 pneumonia versus secondary pneumonia"
+      ],
+      "responses": [
+        "Viral infections like the flu, RSV, or COVID-19 can damage the protective lining of your lungs, making it much easier for bacteria to invade and cause a secondary bacterial pneumonia.",
+        "A classic warning sign of post-viral pneumonia is feeling like you are recovering from a cold or flu for a few days, and then suddenly getting hit with a high fever, worse cough, and chest pain.",
+        "If you experience a 'double-sick' pattern—getting better and then significantly worse—you should be evaluated by a doctor promptly, as you may need antibiotics for a secondary infection."
+      ]
+    },
+    {
+      "tag": "pneumonia_return_to_normal_work_school",
+      "patterns": [
+        "When can I return to work after pneumonia?",
+        "Is it safe to go back to school?",
+        "How long should I stay home from work?",
+        "When am I cleared to resume normal activities?",
+        "Return to office after lung infection",
+        "Can I exercise after having pneumonia?",
+        "When can my child go back to daycare?",
+        "How many days off work for pneumonia?",
+        "Working while recovering from pneumonia",
+        "When am I no longer a risk to coworkers?",
+        "Doctor's note for returning to work",
+        "Can I go back to the gym?",
+        "Is it safe to fly after pneumonia?",
+        "Resuming sports after lung illness",
+        "How to ease back into work",
+        "Will I be too tired to work?",
+        "Guidelines for returning to school",
+        "Post-pneumonia activity levels",
+        "When is it safe to travel?",
+        "How to know if my body is ready for normal life"
+      ],
+      "responses": [
+        "You should generally stay home until your fever has been gone for at least 24 hours (without fever-reducing medicine) and your symptoms are significantly improving. Always follow your doctor's specific advice.",
+        "Even when cleared to return to work or school, you may experience fatigue and a mild cough for several weeks. Ease back into your routine and do not push yourself to do heavy physical labor or intense exercise immediately.",
+        "Before flying or engaging in strenuous physical activity, consult your clinician, as changes in air pressure or heavy exertion can strain healing lungs."
+      ]
+    },
+    {
+      "tag": "pneumonia_sleep_positioning_comfort",
+      "patterns": [
+        "I can't sleep because of my cough",
+        "Best sleeping position for pneumonia",
+        "How to lay down without coughing",
+        "Sleeping propped up with pillows",
+        "Why is my cough worse at night?",
+        "Should I sleep on my back or side?",
+        "How to get rest when breathing hurts",
+        "Nighttime cough relief for pneumonia",
+        "Does lying flat make pneumonia worse?",
+        "Can't breathe when I lay down",
+        "Positional breathing techniques",
+        "How to stop coughing fits at night",
+        "Elevating my head for lung infection",
+        "Sleep deprivation during pneumonia",
+        "Is a recliner better for sleeping?",
+        "Waking up gasping for air",
+        "How to drain mucus while sleeping",
+        "Comfort measures for nighttime pneumonia",
+        "Why does my chest hurt more in bed?",
+        "Safe sleep positions for respiratory distress"
+      ],
+      "responses": [
+        "Laying flat can cause mucus to pool in your chest, making coughing and breathing worse. The best sleeping position is usually propped up at a 30 to 45-degree angle using several pillows or a wedge.",
+        "Sleeping in a recliner chair is often more comfortable for people recovering from pneumonia. Sleeping on your side with your head elevated can also help open your airways.",
+        "Using a cool-mist humidifier in your bedroom can soothe irritated airways. If you are waking up gasping for air or struggling to breathe at night, this is a medical emergency and you should go to the ER."
+      ]
+    },
+    {
+      "tag": "pneumonia_reinfection_recurrence",
+      "patterns": [
+        "Can you get pneumonia twice?",
+        "Do you build immunity to pneumonia?",
+        "Why do I keep getting pneumonia?",
+        "Recurrent lung infections",
+        "Can pneumonia come back after antibiotics?",
+        "Got pneumonia twice in one year",
+        "Is my body more prone to pneumonia now?",
+        "How to stop getting pneumonia every winter",
+        "Does having pneumonia once cause permanent damage?",
+        "Relapse of pneumonia symptoms",
+        "Can the same bacteria infect me again?",
+        "Chronic pneumonia issues",
+        "Why did my pneumonia return?",
+        "Am I immune to pneumonia now?",
+        "Long term effects of multiple pneumonias",
+        "How to break the cycle of lung infections",
+        "Is it normal to get pneumonia every year?",
+        "Reinfection risk factors",
+        "What causes recurrent pneumonia in adults?",
+        "Can scarred lungs lead to more pneumonia?"
+      ],
+      "responses": [
+        "Having pneumonia does not make you immune. In fact, depending on the damage to your lungs or underlying health conditions, having it once can sometimes make you more susceptible to getting it again.",
+        "If you get pneumonia multiple times, your doctor may want to run specialized tests to check for underlying issues like an immune deficiency, asthma, COPD, or structural problems in your lungs.",
+        "To prevent recurrence, ensure you are fully vaccinated (flu, COVID-19, and pneumococcal vaccines), avoid smoking, practice good hand hygiene, and manage any chronic health conditions."
+      ]
+    },
+    {
+      "tag": "pneumonia_chest_pain_coughing",
+      "patterns": [
+        "Why does my chest hurt when I cough?",
+        "Sharp pain in ribs when taking a deep breath",
+        "Is chest pain normal with pneumonia?",
+        "Pleurisy and pneumonia",
+        "My back and chest hurt from coughing",
+        "How to relieve chest pain from a lung infection",
+        "When is chest pain an emergency?",
+        "Coughing so hard my chest hurts",
+        "Stabbing pain in lungs",
+        "Is it a heart attack or pneumonia?",
+        "Muscle strain from coughing vs pneumonia pain",
+        "Inflammation of lung lining",
+        "Why does it hurt to inhale deeply?",
+        "Pain management for severe cough",
+        "Does pneumonia cause shoulder pain?",
+        "Burning sensation in chest when breathing",
+        "How do I know if the chest pain is serious?",
+        "Can a lung infection cause rib pain?",
+        "Dull ache in chest area",
+        "How long will the chest pain last?"
+      ],
+      "responses": [
+        "Sharp, stabbing chest pain that worsens when you take a deep breath or cough is common with pneumonia. This is often caused by 'pleurisy,' which is inflammation of the tissue lining the lungs.",
+        "While some chest pain from coughing is normal, severe or crushing chest pain, or pain that radiates to your arm or jaw, could be a sign of a heart attack and requires immediate emergency care.",
+        "To help with the pain, you can hold a pillow tightly against your chest when you cough (called splinting). If the pain becomes severe or is accompanied by severe breathlessness, seek medical help immediately."
+      ]
+    },
+    {
+      "tag": "pneumonia_pregnancy_risk",
+      "patterns": [
+        "Is pneumonia dangerous if I am pregnant?",
+        "Can a lung infection harm my unborn baby?",
+        "Pneumonia symptoms during pregnancy",
+        "I am pregnant and have a severe chest cough",
+        "How is pneumonia treated in pregnant women?",
+        "Are pneumonia antibiotics safe during pregnancy?",
+        "Can severe coughing cause a miscarriage?",
+        "Maternal pneumonia risks",
+        "Shortness of breath while pregnant or pneumonia?",
+        "Will my baby get pneumonia if I have it?",
+        "Pregnancy and weakened immune system lung infections",
+        "Can a high fever from pneumonia hurt the fetus?",
+        "What should pregnant women do for a chest infection?",
+        "Is an X-ray for pneumonia safe while pregnant?",
+        "Third trimester and diagnosed with pneumonia",
+        "Does pregnancy make pneumonia worse?",
+        "Home remedies for pregnant women with pneumonia",
+        "When should a pregnant woman go to the ER for a cough?",
+        "Complications of pneumonia in pregnancy",
+        "OBGYN advice for maternal lung infections"
+      ],
+      "responses": [
+        "Pregnancy naturally alters your immune system and reduces lung capacity, making pneumonia potentially more severe. It is crucial to contact your OBGYN or a doctor immediately if you suspect a lung infection.",
+        "A high fever or low oxygen from pneumonia can be dangerous for both the mother and the baby. Do not self-treat; a doctor can prescribe pregnancy-safe antibiotics and fever reducers.",
+        "If you are pregnant and experience severe shortness of breath, chest pain, or a persistent fever, go to the emergency room. Doctors can use fetal shielding if a chest X-ray is absolutely necessary."
+      ]
+    },
+    {
+      "tag": "pneumonia_nutrition_diet",
+      "patterns": [
+        "What should I eat when I have pneumonia?",
+        "Best foods for pneumonia recovery",
+        "Does milk make pneumonia mucus worse?",
+        "What to drink to clear lung infection",
+        "Should I avoid dairy with a chest cold?",
+        "Vitamins for pneumonia healing",
+        "Can I drink coffee with pneumonia?",
+        "Nutritional advice for lung infections",
+        "Healing broths and soups for pneumonia",
+        "Foods to avoid when your lungs are infected",
+        "Is hot tea good for pneumonia?",
+        "How much water should I drink with pneumonia?",
+        "Does vitamin C cure pneumonia?",
+        "Best diet for severe respiratory illness",
+        "I have no appetite because of pneumonia",
+        "Smoothies or soft foods for sore throat and cough",
+        "Can spicy food help clear lung mucus?",
+        "Hydration guidelines for pneumonia patients",
+        "Supplements to take after pneumonia",
+        "What helps thin out pneumonia phlegm?"
+      ],
+      "responses": [
+        "Hydration is the most critical part of your diet during pneumonia. Drink plenty of water, warm herbal teas, and clear broths to help thin out the mucus in your lungs so you can cough it up easier.",
+        "Eat nutrient-dense, easy-to-digest foods like soups, oatmeal, fruits, and cooked vegetables. If dairy makes your phlegm feel thicker or irritates your throat, it is fine to avoid it temporarily.",
+        "While no specific food 'cures' pneumonia, a diet rich in vitamins (like Vitamin C and Zinc) supports your immune system. Focus on small, frequent meals if you have lost your appetite."
+      ]
+    },
+    {
+      "tag": "pneumonia_walking_pneumonia_mycoplasma",
+      "patterns": [
+        "What is walking pneumonia?",
+        "Walking pneumonia vs regular pneumonia",
+        "How contagious is walking pneumonia?",
+        "Can I go to work with walking pneumonia?",
+        "Symptoms of mycoplasma pneumonia",
+        "Is walking pneumonia a mild infection?",
+        "Do you need antibiotics for walking pneumonia?",
+        "How long does walking pneumonia last?",
+        "Atypical pneumonia meaning",
+        "I feel fine but doctor says I have walking pneumonia",
+        "Can walking pneumonia turn into severe pneumonia?",
+        "Should I stay home if I have walking pneumonia?",
+        "Does walking pneumonia cause a fever?",
+        "Dry cough and walking pneumonia",
+        "How is walking pneumonia diagnosed?",
+        "Is walking pneumonia a virus or bacteria?",
+        "My child was diagnosed with walking pneumonia",
+        "Can you exercise with walking pneumonia?",
+        "Difference between bronchitis and walking pneumonia",
+        "Treatment plan for mild atypical pneumonia"
+      ],
+      "responses": [
+        "'Walking pneumonia' is a non-medical term for a milder case of atypical pneumonia, often caused by the bacteria Mycoplasma. Symptoms are usually mild enough that you can still walk around and function.",
+        "Even though symptoms are mild (like a prolonged dry cough, low-grade fever, and tiredness), walking pneumonia is highly contagious. You should still rest and consult a doctor, as antibiotics may be needed.",
+        "Do not push yourself too hard. While it is called 'walking' pneumonia, ignoring it or exercising heavily can make the infection worse or prolong your recovery by several weeks."
+      ]
+    },
+    {
+      "tag": "pneumonia_breathing_exercises",
+      "patterns": [
+        "How to use an incentive spirometer?",
+        "Breathing exercises to clear pneumonia mucus",
+        "How to expand lungs after pneumonia",
+        "Techniques to cough up phlegm",
+        "Lung therapy for pneumonia patients",
+        "Is deep breathing good for a lung infection?",
+        "How to strengthen lungs after illness",
+        "Chest physiotherapy at home",
+        "How often should I use the breathing plastic tube device?",
+        "Postural drainage for pneumonia",
+        "Exercises to increase oxygen levels naturally",
+        "Controlled coughing techniques",
+        "Does blowing up balloons help lungs recover?",
+        "Diaphragmatic breathing for lung infections",
+        "How to stop lungs from collapsing during pneumonia",
+        "Respiratory therapy exercises I can do in bed",
+        "Huff coughing method to clear chest",
+        "How to get rid of the rattling sound in my chest",
+        "Stretching exercises for chest pain from pneumonia",
+        "Pursed lip breathing benefits"
+      ],
+      "responses": [
+        "Deep breathing exercises help keep your air sacs open. Using an incentive spirometer (the plastic device with a ball or piston) 10 times an hour while awake can significantly aid in lung recovery.",
+        "To help clear mucus, try the 'huff cough' technique: take a deep breath, hold it for a few seconds, and forcefully exhale while making a 'huff' sound to move the phlegm up your airway.",
+        "Change positions frequently and sit upright to help your lungs expand fully. Diaphragmatic (belly) breathing and pursed-lip breathing can also help reduce shortness of breath."
+      ]
+    },
+    {
+      "tag": "pneumonia_vaccine_side_effects",
+      "patterns": [
+        "Side effects of the pneumonia vaccine?",
+        "Is it normal to feel sick after the pneumococcal shot?",
+        "Arm hurts really bad after pneumonia vaccine",
+        "Fever after getting the pneumonia shot",
+        "Can the pneumonia vaccine give you pneumonia?",
+        "How long do side effects of Prevnar last?",
+        "Allergic reaction to pneumovax",
+        "Body aches after pneumonia immunization",
+        "Why is my arm red and swollen after the shot?",
+        "Do you get flu-like symptoms from the pneumonia vaccine?",
+        "Is the pneumonia vaccine safe for older adults?",
+        "Reactions to the lung infection vaccine",
+        "Can I take Tylenol for pneumonia vaccine pain?",
+        "How to treat a sore arm from pneumococcal shot",
+        "Chills and fatigue after pneumonia shot",
+        "Is a lump at the injection site normal?",
+        "When to call a doctor after a pneumonia vaccine",
+        "Difference between pneumovax 23 and prevnar 13 side effects",
+        "Will the pneumonia shot make me tired?",
+        "Contraindications for the pneumonia vaccine"
+      ],
+      "responses": [
+        "Common side effects of the pneumonia vaccine include mild pain, redness, or swelling at the injection site, as well as low-grade fever, fatigue, and muscle aches. These usually resolve within 1 to 2 days.",
+        "The pneumonia vaccine contains only dead bacteria or parts of bacteria, so it is biologically impossible for the vaccine to give you pneumonia.",
+        "You can apply a cool compress to your arm and, if approved by your doctor, take an over-the-counter pain reliever. Seek immediate medical help if you experience signs of a severe allergic reaction, such as hives or difficulty breathing."
+      ]
+    },
+    {
+      "tag": "pneumonia_hospitalization_criteria",
+      "patterns": [
+        "When do they admit you to the hospital for pneumonia?",
+        "Do I need to stay in the hospital for my lung infection?",
+        "Hospitalization criteria for pneumonia",
+        "How bad does pneumonia have to be for the ICU?",
+        "Why did the doctor admit my dad for pneumonia?",
+        "What is the CURB-65 score?",
+        "Will I be put on a ventilator for pneumonia?",
+        "Signs that pneumonia requires inpatient care",
+        "Can I refuse hospital admission for pneumonia?",
+        "What treatments do they give for pneumonia in the hospital?",
+        "IV antibiotics vs oral pills for pneumonia",
+        "How long is a typical hospital stay for pneumonia?",
+        "Oxygen therapy in the hospital",
+        "Why is hospital acquired pneumonia worse?",
+        "Being admitted for low oxygen levels",
+        "Kidney function dropping from pneumonia",
+        "Severe sepsis from a lung infection",
+        "When does a child need to be hospitalized for pneumonia?",
+        "Pneumonia admission guidelines",
+        "What happens if pneumonia gets into the bloodstream?"
+      ],
+      "responses": [
+        "Doctors admit patients to the hospital for pneumonia when symptoms are severe, such as dangerously low oxygen levels, inability to keep oral fluids or antibiotics down, extreme confusion, or failing kidney function.",
+        "In the hospital, treatments often include IV (intravenous) antibiotics, which work faster than pills, supplemental oxygen, and specialized breathing treatments to support the lungs.",
+        "High-risk patients, such as the elderly, young infants, or those with chronic conditions like COPD or heart failure, have a much lower threshold for hospital admission to monitor for rapid deterioration."
+      ]
+    },
+    {
+      "tag": "pneumonia_mental_health_impact",
+      "patterns": [
+        "Pneumonia is giving me anxiety",
+        "Panic attacks because I can't breathe well",
+        "Depression during long pneumonia recovery",
+        "I feel traumatized after being in the ICU for pneumonia",
+        "How to calm anxiety when shortness of breath happens",
+        "Is it normal to cry a lot while sick with pneumonia?",
+        "Fear of suffocating from lung infection",
+        "Mental health toll of severe respiratory illness",
+        "Post-intensive care syndrome after pneumonia",
+        "I'm scared my pneumonia will come back",
+        "How to tell the difference between anxiety and hypoxia",
+        "Hyperventilating makes my pneumonia cough worse",
+        "Feeling hopeless because my cough won't go away",
+        "Can a lung infection alter your mental state?",
+        "Anxiety meds and pneumonia",
+        "How to cope with the isolation of being sick",
+        "PTSD from being on a ventilator",
+        "Waking up in a panic grasping for air",
+        "Psychological effects of chronic lung infections",
+        "Relaxation techniques for respiratory distress"
+      ],
+      "responses": [
+        "It is completely normal to experience anxiety or panic when you are struggling to breathe. The feeling of not getting enough air naturally triggers your body's 'fight or flight' response.",
+        "Prolonged illness and isolation can lead to depression and frustration. Be patient with your body's recovery timeline, and stay connected with friends and family via phone or text.",
+        "If you cannot tell whether your shortness of breath is from anxiety or worsening pneumonia, use a pulse oximeter if you have one. If your oxygen is normal but you feel panicked, try grounding breathing exercises. If oxygen is low, seek medical help."
+      ]
+    },
+    {
+      "tag": "pneumonia_medication_side_effects",
+      "patterns": [
+        "Antibiotics for pneumonia are giving me diarrhea",
+        "Stomach pain from pneumonia medication",
+        "I got a yeast infection from my pneumonia antibiotics",
+        "Nausea after taking pills for lung infection",
+        "Allergic reaction to amoxicillin or azithromycin",
+        "Can I stop taking antibiotics if they make me sick?",
+        "Steroid side effects for pneumonia treatment",
+        "Prednisone makes me jittery and unable to sleep",
+        "How to protect my gut while on heavy antibiotics",
+        "Metallic taste in mouth from pneumonia meds",
+        "Should I take probiotics with my pneumonia medicine?",
+        "Rash broke out after starting pneumonia treatment",
+        "My heart is racing from my inhaler",
+        "Dizziness from cough syrup and antibiotics",
+        "What to do if I throw up my pneumonia pills?",
+        "Side effects of levofloxacin or doxycycline",
+        "Can pneumonia meds cause a headache?",
+        "Interactions between my regular meds and pneumonia antibiotics",
+        "How to handle oral thrush from steroid inhalers",
+        "Dealing with the side effects of strong antibiotics"
+      ],
+      "responses": [
+        "Stomach upset and diarrhea are very common side effects of strong antibiotics. Try taking your medication with food (unless instructed otherwise) and consider eating yogurt or taking a probiotic a few hours after your dose.",
+        "Never stop taking your antibiotics just because of mild side effects, as this can cause the pneumonia to return stronger. If the side effects are intolerable, contact your doctor for an alternative prescription.",
+        "If you develop a rash, hives, facial swelling, or severe watery diarrhea, stop the medication and contact a doctor or go to the ER immediately, as these are signs of an allergic reaction or a serious gut infection."
+      ]
+    },
+    {
+      "tag": "pneumonia_inhaler_nebulizer_use",
+      "patterns": [
+        "How to use an albuterol inhaler for pneumonia",
+        "Does a nebulizer help clear pneumonia?",
+        "Difference between inhaler and nebulizer machine",
+        "My doctor prescribed a steroid inhaler for my cough",
+        "How often should I do a breathing treatment?",
+        "Breathing machine for lung infection",
+        "How to clean a nebulizer after having pneumonia",
+        "Can bronchodilators cure pneumonia?",
+        "Why do my hands shake after using my inhaler?",
+        "Using a spacer with my pneumonia inhaler",
+        "Is it safe to use my child's nebulizer for my cough?",
+        "What medicine goes into a nebulizer for pneumonia?",
+        "How fast does an inhaler work for shortness of breath?",
+        "Steroid nebulizer treatments for lung inflammation",
+        "Do I breathe through my nose or mouth for a nebulizer?",
+        "Can I use over-the-counter asthma inhalers for pneumonia?",
+        "Inhaler isn't helping my pneumonia breathing",
+        "How to tell if my nebulizer is working",
+        "Vaporizer vs nebulizer for chest infections",
+        "Should I cough during a nebulizer treatment?"
+      ],
+      "responses": [
+        "Inhalers and nebulizers deliver medication directly to your lungs to relax airway muscles (bronchodilators) or reduce inflammation (steroids). They do not cure the infection, but they make breathing much easier.",
+        "If you use an inhaler, using a 'spacer' device helps ensure the medicine reaches your lungs instead of hitting the back of your throat. For a nebulizer, breathe normally through your mouth until the medicine cup is empty.",
+        "It is common to feel a slightly rapid heartbeat or shaky hands after using medications like albuterol. Always clean your nebulizer mouthpiece and cup with warm soapy water after use to prevent bacterial buildup."
+      ]
+    },
+    {
+      "tag": "pneumonia_environmental_triggers",
+      "patterns": [
+        "Can mold in my house cause pneumonia?",
+        "Chemical pneumonia from inhaling bleach",
+        "Dust and pollution making my lung infection worse",
+        "Is hypersensitivity pneumonitis the same as pneumonia?",
+        "Air quality impact on pneumonia recovery",
+        "Can working in a dusty environment give you pneumonia?",
+        "Aspiration of toxic fumes causing lung fluid",
+        "I inhaled smoke and now I have pneumonia symptoms",
+        "Agricultural workers and fungal pneumonia",
+        "Bird droppings causing lung infections",
+        "Legionnaires disease from air conditioning units",
+        "Can bad ventilation cause recurrent pneumonia?",
+        "Chemical pneumonitis symptoms",
+        "How to purify air in my room while recovering",
+        "Does living in a damp house increase pneumonia risk?",
+        "Asbestos exposure and pneumonia overlap",
+        "Can pet dander cause a pneumonia relapse?",
+        "Industrial fumes and lung inflammation",
+        "Do HEPA filters help prevent pneumonia?",
+        "Environmental hazards that mimic pneumonia"
+      ],
+      "responses": [
+        "Yes, environmental factors can cause specific types of lung inflammation. Inhaling toxic chemicals, smoke, or gases can cause 'chemical pneumonitis,' which inflames the lungs similarly to an infection.",
+        "Certain fungi found in soil, bird droppings, or moldy environments can cause fungal pneumonia, while poorly maintained air conditioning cooling towers can spread the bacteria that causes Legionnaires' disease.",
+        "If you are recovering from pneumonia, keep your indoor air as clean as possible. Avoid cigarette smoke, harsh cleaning chemicals, and dusty areas, and consider using a HEPA air purifier to remove irritants."
+      ]
+    }
+  ]
+}
+ 
