@@ -6,7 +6,7 @@
 /* ══════════════════════════════════════════
    CONFIGURATION
 ══════════════════════════════════════════ */
-var API_BASE = 'http://localhost:5000';
+var API_BASE = 'https://Squigglesbo3bo3-project.hf.space';
 
 /* ══════════════════════════════════════════
    NAVIGATION
